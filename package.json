@@ -1,0 +1,16 @@
+{
+  "name": "3_bld_w_11y",
+  "version": "1.0.0",
+  "main": "vibe.js",
+  "scripts": {
+    "build": "eleventy --config=./src/eleventy.config.js",
+    "start": "eleventy --serve  --config=./src/eleventy.config.js"
+  },
+  "keywords": [],
+  "author": "Jim Abercromby <dethronedemperor@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "description": ""
+}
